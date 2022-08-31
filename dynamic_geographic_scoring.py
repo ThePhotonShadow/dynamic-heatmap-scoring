@@ -26,3 +26,12 @@ def parse_excel_address_columns(filepath: str, column_names: list, api_key: str)
     )
 
     return data_frame
+
+def score_point(latitude: float, longitude: float, ):
+    """Returns a suitability value score for a geographic point weighted by the euclidian distance
+    and number of units at sale locations"""
+    """To-do: Probably too expensive to do API calls for driving distance rather than 
+    straight-line distances"""
+
+
+def score():
