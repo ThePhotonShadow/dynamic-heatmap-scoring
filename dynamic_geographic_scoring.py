@@ -35,3 +35,4 @@ def score_point(latitude: float, longitude: float, ):
 
 
 def score():
+    pass
